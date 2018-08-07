@@ -16,7 +16,7 @@ $ ampy put my9221.py
 
 **Basic usage**
 
-```
+```python
 from my9221 import MY9221
 from machine import Pin
 ledbar = MY9221(di=Pin(4), dcki=Pin(5))
@@ -101,3 +101,7 @@ G             | GND (black)
 * [BBC micro:bit version](https://github.com/mcauser/microbit-my9221)
 * [Adafruit Ampy](https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy)
 * [micropython-my9221 on pypi](https://pypi.python.org/pypi/micropython-my9221/)
+
+## License
+
+Licensed under the [MIT License](http://opensource.org/licenses/MIT).
